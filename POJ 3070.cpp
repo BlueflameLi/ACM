@@ -42,4 +42,5 @@ int main()
     m.M[1][1] = 0;
     while (cin >> n && n != -1)
         cout << pow(m, n).M[1][0] % 10000 << endl;
+    return 0;
 }
