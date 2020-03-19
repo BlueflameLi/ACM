@@ -21,4 +21,5 @@ int main()
         }   //F(i)=p*(F(i-1)+2*E(i-1)+1)+(1-p)*(F(i)+2*E(i)+1)
         printf("%.3f %.3f\n", E[k], F[k]);//g++用%lf会WA，C++用%lfAC
     }
+    return 0;
 }
